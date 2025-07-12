@@ -1,5 +1,7 @@
 # Employee Directory Web App
 
+preview Link: https://vercel.com/harsha33215s-projects/ajackus-assignment
+
 A responsive and interactive **Employee Directory** built using **React.js**, featuring:
 
 - Employee listing
