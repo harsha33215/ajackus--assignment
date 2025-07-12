@@ -2,6 +2,11 @@
 
 preview Link: https://vercel.com/harsha33215s-projects/ajackus-assignment
 
+screenshots: 
+1: https://res.cloudinary.com/dogre3yp8/image/upload/v1752309456/ajackus1_zgdifi.png
+2. https://res.cloudinary.com/dogre3yp8/image/upload/v1752309503/ajackus2_yipt7u.png
+
+
 A responsive and interactive **Employee Directory** built using **React.js**, featuring:
 
 - Employee listing
