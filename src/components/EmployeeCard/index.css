@@ -1,0 +1,112 @@
+.employee-card-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Layout that wraps sidebar and main content */
+.filter-layout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+}
+
+/* Sidebar */
+.filter-sidebar {
+  width: 250px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Main content next to sidebar */
+.main-section {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-right: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Top controls (search, sort, add, filter toggle) */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls input,
+.controls select,
+.controls button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.controls button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+/* Add button specifically */
+.add-button {
+  background-color: #28a745;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+/* Employee list container */
+.employee-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start; /* or center */
+}
+
+/* Pagination section */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.pagination button {
+  padding: 8px 14px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.filter-toggle {
+  background-color: #ffc107;
+  color: #000;
+  font-weight: bold;
+}
+
+.filter-toggle:hover {
+  background-color: #e0a800;
+}
