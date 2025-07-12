@@ -70,7 +70,7 @@ import EmployeeCard from "./components/EmployeeCard";
 function App() {
   return (
     <div>
-      <h1>Employee Directory</h1>
+      <h1 className="heading">Employee Directory</h1>
       <EmployeeCard />
     </div>
   );
